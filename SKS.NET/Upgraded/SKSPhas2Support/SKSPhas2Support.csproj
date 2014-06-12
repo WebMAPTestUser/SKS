@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion />
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FD87B97-0730-4BAE-95A8-C585641BB11F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SKSPhas2Support</AssemblyName>
+    <RootNamespace>SKSPhas2Support</RootNamespace>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.VB6\UpgradeHelpers.VB6.csproj">
+      <Project>{57CF2683-F59C-4C99-B49F-572F40A0CAA4}</Project>
+      <Name>UpgradeHelpers.VB6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.VB6.DB\UpgradeHelpers.VB6.DB.csproj">
+      <Project>{77687D39-A513-4A94-BCF8-B7589AF7E86E}</Project>
+      <Name>UpgradeHelpers.VB6.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\ThirdParty\DataGridViewFlex\UpgradeHelpers.Windows.Forms.DataGridViewFlex.csproj">
+      <Project>{F4D40B9D-70E9-49C9-99F0-A4C0DCE152E4}</Project>
+      <Name>UpgradeHelpers.Windows.Forms.DataGridViewFlex</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.VB6\UpgradeHelpers.VB6.csproj">
+      <Project>{57CF2683-F59C-4C99-B49F-572F40A0CAA4}</Project>
+      <Name>UpgradeHelpers.VB6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.VB6.DB\UpgradeHelpers.VB6.DB.csproj">
+      <Project>{77687D39-A513-4A94-BCF8-B7589AF7E86E}</Project>
+      <Name>UpgradeHelpers.VB6.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\ThirdParty\DataGridViewFlex\UpgradeHelpers.Windows.Forms.DataGridViewFlex.csproj">
+      <Project>{F4D40B9D-70E9-49C9-99F0-A4C0DCE152E4}</Project>
+      <Name>UpgradeHelpers.Windows.Forms.DataGridViewFlex</Name>
+    </ProjectReference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PInvoke\SafeMethods\advapi32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\SafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\SafeMethods\user32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\advapi32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\user32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild" />
+  <Target Name="AfterBuild" />
+</Project>

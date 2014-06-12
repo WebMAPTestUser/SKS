@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77687D39-A513-4A94-BCF8-B7589AF7E86E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpgradeHelpers.VB6.DB</RootNamespace>
+    <AssemblyName>UpgradeHelpers.VB6.DB</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TargetF4</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\UpgradeHelpers.VB6.DB.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>1607,0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\UpgradeHelpers.VB6.DB.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1607,0618</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblyVersionInfo.cs">
+      <Link>AssemblyVersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="AdoFactoryManager.cs" />
+    <Compile Include="ADO\ADOConnectionSettingsHelper.cs" />
+    <Compile Include="ADO\ADODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ADO\ADODataControlHelper.Designer.cs">
+      <DependentUpon>ADODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADO\ADORecordSetHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ADO\Events\AdoEvents.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ConnectionContainers.cs" />
+    <Compile Include="Controls\DataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataControlHelper.designer.cs">
+      <DependentUpon>DataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DataControlHelperBindingImplementation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\InternalADODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\InternalADODataControlHelper.designer.cs">
+      <DependentUpon>InternalADODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InternalDAODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\InternalDAODataControlHelper.designer.cs">
+      <DependentUpon>InternalDAODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InternalRDODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\InternalRDODataControlHelper.Designer.cs">
+      <DependentUpon>InternalRDODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\DAODatabaseHelper.cs">
+    </Compile>
+    <Compile Include="DAO\DAODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DAO\DAODataControlHelper.Designer.cs">
+      <DependentUpon>DAODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\DAORecordSetHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\DBEngineHelper.cs" />
+    <Compile Include="DAO\DbTypesConverter.cs" />
+    <Compile Include="DAO\EditModeEnum.cs" />
+    <Compile Include="DAO\IndexesHelper.cs" />
+    <Compile Include="DAO\IndexHelper.cs" />
+    <Compile Include="DAO\TableDefHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\TableDefsHelper.cs" />
+    <Compile Include="DAO\WorkspaceHelper.cs" />
+    <Compile Include="EngineHelper.cs" />
+    <Compile Include="FieldHelper.cs" />
+    <Compile Include="IdentityColumnsManager.cs" />
+    <Compile Include="ParametersHelper.cs" />
+    <Compile Include="RDO\Events\RdoEvents.cs" />
+    <Compile Include="RDO\RDODataControlHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RDO\RDODataControlHelper.Designer.cs">
+      <DependentUpon>RDODataControlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RDO\RDOEngineHelper.cs" />
+    <Compile Include="RDO\RDOEnvironmentHelper.cs" />
+    <Compile Include="RDO\RDORecordSetHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RecordSetHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransactionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADO\ADODataControlHelper.resx">
+      <DependentUpon>ADODataControlHelper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataControlHelper.resx">
+      <DependentUpon>DataControlHelper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAO\DAODataControlHelper.resx">
+      <DependentUpon>DAODataControlHelper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RDO\RDODataControlHelper.resx">
+      <DependentUpon>RDODataControlHelper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

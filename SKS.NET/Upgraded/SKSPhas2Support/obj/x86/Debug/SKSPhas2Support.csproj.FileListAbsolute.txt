@@ -1,0 +1,14 @@
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\SKSPhas2Support.dll
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\SKSPhas2Support.pdb
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.DB.dll
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.dll
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.dll
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.pdb
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.xml
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.DB.pdb
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.VB6.DB.xml
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.pdb
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.xml
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\obj\x86\Debug\SKSPhas2Support.csprojResolveAssemblyReference.cache
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\obj\x86\Debug\SKSPhas2Support.dll
+S:\Workspace\Samples\SKS\SKS.NET\Upgraded\SKSPhas2Support\obj\x86\Debug\SKSPhas2Support.pdb

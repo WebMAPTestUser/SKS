@@ -1,0 +1,11 @@
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\bin\Debug\UpgradeHelpers.VB6.DB.XML
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\bin\Debug\UpgradeHelpers.VB6.DB.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\bin\Debug\UpgradeHelpers.VB6.DB.pdb
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.csprojResolveAssemblyReference.cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.ADO.ADODataControlHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.Controls.ValidatingEventArgs.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.DAO.DAODataControlHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.RDO.RDODataControlHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.csproj.GenerateResource.Cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6.DB\obj\Debug\UpgradeHelpers.VB6.DB.pdb

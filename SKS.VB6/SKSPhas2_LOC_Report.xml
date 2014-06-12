@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+<Style ss:ID="s21">
+<Font x:Family="Swiss" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s22">
+<Font x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+</Style><Style ss:ID="firstNormalCell">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastNormalCell">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowFirstCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="lastRowLastCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="headerFirstCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="headerCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="headerLastCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+</Styles>
+<Worksheet ss:Name="Detailed LOC Report">
+<Table>
+<Column ss:Width="204"/>
+<Column ss:Width="126"/>
+<Row class="text">
+<Cell ss:StyleID="s22" id="h1"> <Data ss:Type="String">Lines of code per project</Data></Cell>
+<Cell ss:StyleID="s22" id="h1"> <Data ss:Type="String">LOC</Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">SKS.vbp</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="Number">8348</Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Code</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Comment</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Blank</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Design</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmMain.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">44</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">15</Data></Cell>
+<Cell> <Data ss:Type="Number">158</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmAbout.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">89</Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">23</Data></Cell>
+<Cell> <Data ss:Type="Number">106</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmLogin.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">22</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">75</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmSales.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">47</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">10</Data></Cell>
+<Cell> <Data ss:Type="Number">274</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\modFunctions.bas</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">332</Data></Cell>
+<Cell> <Data ss:Type="Number">31</Data></Cell>
+<Cell> <Data ss:Type="Number">41</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\modConnection.bas</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">9</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\modMain.bas</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">60</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">13</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmSearch.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">63</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">8</Data></Cell>
+<Cell> <Data ss:Type="Number">152</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmUsersManage.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">150</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">17</Data></Cell>
+<Cell> <Data ss:Type="Number">327</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmCustomers.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">70</Data></Cell>
+<Cell> <Data ss:Type="Number">16</Data></Cell>
+<Cell> <Data ss:Type="Number">10</Data></Cell>
+<Cell> <Data ss:Type="Number">435</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmProducts.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">106</Data></Cell>
+<Cell> <Data ss:Type="Number">28</Data></Cell>
+<Cell> <Data ss:Type="Number">12</Data></Cell>
+<Cell> <Data ss:Type="Number">366</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmAdjustStockManual.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">272</Data></Cell>
+<Cell> <Data ss:Type="Number">3</Data></Cell>
+<Cell> <Data ss:Type="Number">29</Data></Cell>
+<Cell> <Data ss:Type="Number">416</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmProviders.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">61</Data></Cell>
+<Cell> <Data ss:Type="Number">25</Data></Cell>
+<Cell> <Data ss:Type="Number">9</Data></Cell>
+<Cell> <Data ss:Type="Number">418</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmOrderRequest.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">369</Data></Cell>
+<Cell> <Data ss:Type="Number">24</Data></Cell>
+<Cell> <Data ss:Type="Number">51</Data></Cell>
+<Cell> <Data ss:Type="Number">382</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmAddStockManual.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">220</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">27</Data></Cell>
+<Cell> <Data ss:Type="Number">315</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmOrderReception.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">359</Data></Cell>
+<Cell> <Data ss:Type="Number">23</Data></Cell>
+<Cell> <Data ss:Type="Number">56</Data></Cell>
+<Cell> <Data ss:Type="Number">357</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmAddProductTo.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">213</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">25</Data></Cell>
+<Cell> <Data ss:Type="Number">229</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmOrderAproval.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">155</Data></Cell>
+<Cell> <Data ss:Type="Number">0</Data></Cell>
+<Cell> <Data ss:Type="Number">30</Data></Cell>
+<Cell> <Data ss:Type="Number">247</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmActionOrderReception.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">164</Data></Cell>
+<Cell> <Data ss:Type="Number">2</Data></Cell>
+<Cell> <Data ss:Type="Number">41</Data></Cell>
+<Cell> <Data ss:Type="Number">343</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmActionOrderRequest.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">143</Data></Cell>
+<Cell> <Data ss:Type="Number">1</Data></Cell>
+<Cell> <Data ss:Type="Number">29</Data></Cell>
+<Cell> <Data ss:Type="Number">388</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String">\frmRequestAproval.frm</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="Number">155</Data></Cell>
+<Cell> <Data ss:Type="Number">2</Data></Cell>
+<Cell> <Data ss:Type="Number">30</Data></Cell>
+<Cell> <Data ss:Type="Number">247</Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+<Row class="text">
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String">Total lines of code:</Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21" id="h2"> <Data ss:Type="Number">8348</Data></Cell>
+</Row>
+<Row class="text">
+<Cell> <Data ss:Type="String"></Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

@@ -1,0 +1,8 @@
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.xml
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\bin\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.pdb
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\obj\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.csprojResolveAssemblyReference.cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\obj\Debug\UpgradeHelpers.Windows.Forms.Properties.Resources.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\obj\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.csproj.GenerateResource.Cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\obj\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\ThirdParty\DataGridViewFlex\obj\Debug\UpgradeHelpers.Windows.Forms.DataGridViewFlex.pdb

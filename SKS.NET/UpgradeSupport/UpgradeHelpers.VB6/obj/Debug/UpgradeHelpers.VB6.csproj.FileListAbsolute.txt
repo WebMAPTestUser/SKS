@@ -1,0 +1,13 @@
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\bin\Debug\UpgradeHelpers.VB6.XML
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\bin\Debug\UpgradeHelpers.VB6.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\bin\Debug\UpgradeHelpers.VB6.pdb
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.csprojResolveAssemblyReference.cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Gui.DataHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Gui.DataHelperDesignerModalView.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Gui.ImageListHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Gui.MSDataGridHelperDesignerModalView.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Gui.ShapeHelper.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.Resources.UpgradeHelpers.VB6.resources
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.csproj.GenerateResource.Cache
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.dll
+S:\Workspace\Samples\SKS\SKS.NET\UpgradeSupport\UpgradeHelpers.VB6\obj\Debug\UpgradeHelpers.VB6.pdb
